@@ -1,5 +1,5 @@
-docker {
-    "name": "Telegram Bot - YT Downloader",
+{
+    "name": "SEAU DS Interview",
     "build": {
         "dockerfile": "../Dockerfile",
         "context": ".."
