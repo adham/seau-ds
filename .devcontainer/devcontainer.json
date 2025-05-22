@@ -1,0 +1,21 @@
+docker {
+    "name": "Telegram Bot - YT Downloader",
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+    "postCreateCommand": "pip install --user ipykernel && python -m ipykernel install --user",
+    "remoteUser": "root",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "mechatroner.rainbow-csv"
+            ]
+        }
+    }
+}
