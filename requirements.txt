@@ -1,6 +1,5 @@
 jupyterlab
 pandas
-matplotlib
 plotly
 seaborn
 scikit-learn
